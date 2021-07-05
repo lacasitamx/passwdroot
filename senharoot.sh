@@ -22,4 +22,7 @@ clear
 	sed -i "s/#PasswordAuthentication no/PasswordAuthentication yes/g" /etc/ssh/sshd_config
 } > /dev/null
 service ssh restart > /dev/null
-clear; echo -e "\033[1;32m AHORA INGRESE SU NUEVA CONTRASEÑA PARA TENER ACCESO A ROOT\033[0m"; sleep 2s; passwd
+clear
+echo -e "\033[1;32m AHORA INGRESE SU NUEVA CONTRASEÑA PARA TENER ACCESO A ROOT\033[0m"
+sleep 2s
+passwd
