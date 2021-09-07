@@ -1,2 +1,2 @@
 # passwdroot
-Para tener acceso a root en nuestra vps
+Para tener acceso a root en la vps
